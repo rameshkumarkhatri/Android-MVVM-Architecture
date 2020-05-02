@@ -3,6 +3,10 @@ package com.mobifyall.mvvm.models
 import android.os.Parcelable
 import kotlinx.android.parcel.Parcelize
 
+/**
+ * Created by Ramesh Kumar
+ * r.khatri91@gmail.com
+ */
 @Parcelize
 data class EpisodesResponse(val request_hash: String? = null, val request_cached: Boolean = false,
                             val request_cache_expiry: Long, val episodes_last_page: Int = 0,

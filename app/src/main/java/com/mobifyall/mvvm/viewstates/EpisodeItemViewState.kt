@@ -4,6 +4,10 @@ import androidx.databinding.BaseObservable
 import androidx.databinding.Bindable
 import com.mobifyall.mvvm.models.Episode
 
+/**
+ * Created by Ramesh Kumar
+ * r.khatri91@gmail.com
+ */
 data class EpisodeItemViewState(private val episode: Episode?, @Bindable val number: String) :
         BaseObservable() {
     @Bindable

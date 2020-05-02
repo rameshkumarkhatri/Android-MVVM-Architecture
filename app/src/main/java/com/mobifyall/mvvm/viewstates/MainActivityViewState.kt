@@ -4,6 +4,10 @@ import android.view.View
 import androidx.databinding.BaseObservable
 import androidx.databinding.Bindable
 
+/**
+ * Created by Ramesh Kumar
+ * r.khatri91@gmail.com
+ */
 class MainActivityViewState : BaseObservable() {
 
     @Bindable

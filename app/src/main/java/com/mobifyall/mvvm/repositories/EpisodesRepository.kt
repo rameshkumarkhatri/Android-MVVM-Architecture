@@ -9,6 +9,10 @@ import retrofit2.Call
 import retrofit2.Callback
 import retrofit2.Response
 
+/**
+ * Created by Ramesh Kumar
+ * r.khatri91@gmail.com
+ */
 class EpisodesRepositoryImp(private val apiService: ApiService) : EpisodesRepository {
     private val _liveData: MutableLiveData<ServiceResponse> by lazy {
         MutableLiveData<ServiceResponse>()

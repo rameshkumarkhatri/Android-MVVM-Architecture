@@ -9,7 +9,13 @@
     <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="60a6898d-42ed-4c53-956e-ac44d9b2dc62" name="Default Changelist" comment="" />
+    <list default="true" id="60a6898d-42ed-4c53-956e-ac44d9b2dc62" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mobifyall/mvvm/MainActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mobifyall/mvvm/MainActivity.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mobifyall/mvvm/repositories/EpisodesRepository.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mobifyall/mvvm/repositories/EpisodesRepository.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mobifyall/mvvm/service/ApiService.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mobifyall/mvvm/service/ApiService.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mobifyall/mvvm/viewstates/MainActivityViewState.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mobifyall/mvvm/viewstates/MainActivityViewState.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/layout/activity_main.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/layout/activity_main.xml" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,7 +43,11 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
   <component name="ProjectId" id="1b4ARVBCSjKb7WkU5prd5CjUCbX" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
     <property name="DEBUGGABLE_DEVICE" value="Pixel_3_API_28 [emulator-5554]" />
     <property name="DEBUGGABLE_PROCESS" value="com.mobifyall.mvvm" />
@@ -145,42 +155,53 @@
     </task>
     <servers />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="kotlin-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/mobifyall/mvvm/MainActivity.kt</url>
-          <line>44</line>
+          <line>48</line>
           <option name="timeStamp" value="1" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="kotlin-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/mobifyall/mvvm/service/ApiService.kt</url>
-          <line>21</line>
+          <line>25</line>
           <option name="timeStamp" value="2" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="kotlin-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/mobifyall/mvvm/repositories/EpisodesRepository.kt</url>
-          <line>19</line>
+          <line>23</line>
           <option name="timeStamp" value="3" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="kotlin-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/mobifyall/mvvm/repositories/EpisodesRepository.kt</url>
-          <line>24</line>
+          <line>28</line>
           <option name="timeStamp" value="4" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="kotlin-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/mobifyall/mvvm/MainActivity.kt</url>
-          <line>43</line>
+          <line>47</line>
           <option name="timeStamp" value="5" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="kotlin-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/mobifyall/mvvm/MainActivity.kt</url>
-          <line>46</line>
+          <line>50</line>
           <option name="timeStamp" value="6" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="kotlin-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/mobifyall/mvvm/viewstates/MainActivityViewState.kt</url>
-          <line>43</line>
+          <line>47</line>
           <option name="timeStamp" value="7" />
         </line-breakpoint>
       </breakpoints>

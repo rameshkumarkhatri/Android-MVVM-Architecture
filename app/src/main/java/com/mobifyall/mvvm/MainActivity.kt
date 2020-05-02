@@ -13,6 +13,10 @@ import com.mobifyall.mvvm.service.RetrofitFactory
 import com.mobifyall.mvvm.viewmodels.MainActivityViewModel
 import com.mobifyall.mvvm.viewstates.MainActivityViewState
 
+/**
+ * Created by Ramesh Kumar
+ * r.khatri91@gmail.com
+ */
 class MainActivity : AppCompatActivity() {
     //it's always better to use the lateinit when you know it will initialize before the call otherwise nullable
     private lateinit var binding: ActivityMainBinding

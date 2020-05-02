@@ -1,0 +1,70 @@
+apply plugin: 'com.android.application'
+apply plugin: 'kotlin-android'
+apply plugin: 'kotlin-android-extensions'
+apply plugin: 'kotlin-kapt' // for annotation in kotlin eg binding
+
+android {
+    compileSdkVersion 28
+    buildToolsVersion "29.0.3"
+    // data binding for views
+    dataBinding {
+        enabled = true
+    }
+
+    //for exception : Invoke-customs are only supported starting with Android O (--min-api 26)
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+
+    //enables Parcelize annotation
+    androidExtensions {
+        experimental = true
+    }
+    defaultConfig {
+        applicationId "com.mobifyall.mvvm"
+        minSdkVersion 16
+        targetSdkVersion 28
+        versionCode 1
+        versionName "1.0"
+
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+
+}
+
+dependencies {
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+    implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlin_version"
+    implementation 'androidx.appcompat:appcompat:1.1.0'
+    implementation 'androidx.core:core-ktx:1.2.0'
+    implementation 'androidx.constraintlayout:constraintlayout:1.1.3'
+    testImplementation 'junit:junit:4.12'
+    androidTestImplementation 'androidx.test.ext:junit:1.1.1'
+    androidTestImplementation 'androidx.test.espresso:espresso-core:3.2.0'
+
+    //for lifecycle viewmodel providers and livedata
+    implementation "androidx.lifecycle:lifecycle-extensions:2.1.0-alpha02"
+
+    //for api service call
+    implementation 'com.squareup.retrofit2:retrofit:2.8.1'
+    implementation 'com.squareup.retrofit2:converter-gson:2.8.1'
+    //for logging service call
+    implementation "com.squareup.okhttp3:logging-interceptor:4.6.0"
+
+    //for json parsing
+    implementation 'com.google.code.gson:gson:2.8.0'
+
+    //for androidx recyclerview
+    implementation 'androidx.recyclerview:recyclerview:1.1.0'
+    //shimmer layout
+    implementation 'com.facebook.shimmer:shimmer:0.4.0'
+
+}

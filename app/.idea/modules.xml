@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/../Android MVVM Architecture.iml" filepath="$PROJECT_DIR$/../Android MVVM Architecture.iml" group="Android MVVM Architecture" />
+      <module fileurl="file://$PROJECT_DIR$/app.iml" filepath="$PROJECT_DIR$/app.iml" group="Android MVVM Architecture/app" />
+    </modules>
+  </component>
+</project>

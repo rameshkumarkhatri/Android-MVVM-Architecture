@@ -4,6 +4,10 @@ import androidx.lifecycle.*
 import com.mobifyall.mvvm.models.ServiceResponse
 import com.mobifyall.mvvm.repositories.EpisodesRepository
 
+/**
+ * Created by Ramesh Kumar
+ * r.khatri91@gmail.com
+ */
 class MainActivityViewModel(private val repository: EpisodesRepository) : ViewModel() {
     private val query = MutableLiveData<String>()
     val episodesLiveData: LiveData<ServiceResponse> = Transformations.switchMap(query, ::getEpisodeFromRepo)

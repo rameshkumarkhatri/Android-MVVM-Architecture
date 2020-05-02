@@ -10,6 +10,10 @@ import com.mobifyall.mvvm.databinding.EpisodeItemBinding
 import com.mobifyall.mvvm.models.Episode
 import com.mobifyall.mvvm.viewstates.EpisodeItemViewState
 
+/**
+ * Created by Ramesh Kumar
+ * r.khatri91@gmail.com
+ */
 class EpisodesNameAdapter(private val episodes: List<Episode>?) :
         RecyclerView.Adapter<EpisodesViewHolder>() {
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): EpisodesViewHolder {
